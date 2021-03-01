@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header ul{
+    background-color: cornflowerblue;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 10px;
+}
+header li{
+    display: inline;
+    right: 0;
+    color: white;  
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+header h1{
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    font-weight: lighter;
+}
+
+nav{
+    /*this makes sure the header does not move at all while u scroll down on the page*/
+    top: 8rem;/*places on top*/
+    width: 100%;
+    height: 6vh;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    background-color:white
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;/*makes sure there is space betwen each link*/
+    width: 40%;/*space between links specified*/
+    list-style: none;/*removes bullet point on headings*/
+    padding-top: 1vh;
+}
+
+.nav-links a{
+   color: black;
+   text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
+    
+}
+
+.nav-links a:hover{/*this acces when the mouse hover our the nav links*/
+    opacity: 0.7;/* allows link to be a darker colour when mouse is hoveing over the link*/
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 100vh;
+}
+
+
+.about-container{
+    padding-bottom: 4rem;
+}
+
+.about-section{
+    background: url(clothes-shop.jpg) no-repeat left;/*puts pic on left side of page*/
+    background-size: 55%;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 150px;
+    font-family: 'Lora', serif;
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+.contact{
+    padding: 1rem;
+    background-color: gainsboro;
+}
+
+.container{
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.container h4{
+    padding-bottom: 1rem;
+    font-size: x-large;
+}
+.container li{
+    list-style: none;/*removes bullet point on headings*/
+    font-size: small;
+    cursor: pointer;
+}
+.left-col, .right-col{
+    width: 33%;
+    float: left;
+    text-align: justify;
+}
+.middle-col{
+    width: 33%;
+    float: left;
+    text-align: justify;
+}
+
